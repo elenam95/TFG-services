@@ -1,0 +1,35 @@
+{
+  "name": "usuario",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "NomUsu": {
+      "type": "string",
+      "required": true,
+      "id": true 
+    },
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Mail": {
+      "type": "string",
+      "required": true
+    },
+    "Rol": {
+      "type": "string",
+      "required": true
+    },
+    "Pass": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

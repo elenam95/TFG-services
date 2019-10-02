@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "dbusuario": {
+    "host": "localhost",
+    "port": 0,
+    "url": "",
+    "database": "tfg",
+    "password": "Ei04120610",
+    "name": "dbusuario",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
