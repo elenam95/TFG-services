@@ -1,0 +1,36 @@
+{
+  "name": "publicacion",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Idpublicacion": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "string"
+    },
+    "Duracion": {
+      "type": "number",
+      "required": true
+    },
+    "Ruta": {
+      "type": "string"
+    },
+    "Recomendacion": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -8,8 +8,8 @@
   "properties": {
     "NomUsu": {
       "type": "string",
-      "required": true,
-      "id": true 
+      "id": true,
+      "required": true
     },
     "Nombre": {
       "type": "string",
@@ -29,7 +29,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "publicaciones": {
+      "type": "hasMany",
+      "model": "publicacion",
+      "foreignKey": "IdNomUsu"
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -38,5 +38,9 @@
   "usuario": {
     "dataSource": "dbusuario",
     "public": true
+  },
+  "publicacion": {
+    "dataSource": "dbusuario",
+    "public": true
   }
 }
