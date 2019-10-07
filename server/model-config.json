@@ -46,5 +46,9 @@
   "fotografias": {
     "dataSource": "dbusuario",
     "public": true
+  },
+  "imagen": {
+    "dataSource": "imagenes",
+    "public": true
   }
 }

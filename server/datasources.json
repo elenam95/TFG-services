@@ -12,5 +12,11 @@
     "name": "dbusuario",
     "user": "root",
     "connector": "mysql"
+  },
+  "imagenes": {
+    "name": "imagenes",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/ficheros"
   }
 }
