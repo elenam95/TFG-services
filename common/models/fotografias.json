@@ -1,42 +1,48 @@
 {
-  "name": "publicacion",
+  "name": "fotografias",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "Idpublicacion": {
+    "Idfoto": {
       "type": "number",
       "id": true,
       "required": true
     },
-    "Titulo": {
+    "Foto": {
       "type": "string",
       "required": true
     },
     "Descripcion": {
       "type": "string"
     },
-    "Duracion": {
+    "Rol": {
+      "type": "string"
+    },
+    "Web": {
+      "type": "string"
+    },
+    "Nota": {
+      "type": "number",
+      "dataType": "decimal",
+      "precision": 4,
+      "scale": 2
+    },
+    "Positivo": {
+      "type": "string"
+    },
+    "Negativo": {
+      "type": "string"
+    },
+    "Dia": {
       "type": "number",
       "required": true
-    },
-    "Ruta": {
-      "type": "string"
-    },
-    "Recomendacion": {
-      "type": "string"
     }
   },
   "validations": [],
-  "relations": {
-    "publi-fotos": {
-      "type": "hasMany",
-      "model": "fotografias",
-      "foreignKey": "Idpublicacion"
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }
