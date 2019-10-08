@@ -26,6 +26,10 @@
     "Pass": {
       "type": "string",
       "required": true
+    },
+    "Fotousu": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],
