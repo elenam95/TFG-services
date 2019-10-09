@@ -39,6 +39,10 @@
     "Dia": {
       "type": "number",
       "required": true
+    },
+    "Portada": {
+      "type": "boolean",
+      "required": true
     }
   },
   "validations": [],
