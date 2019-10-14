@@ -30,6 +30,10 @@
     "Fotousu": {
       "type": "string",
       "required": false
+    }, 
+    "Perfil": {
+      "type": "boolean",
+      "required": true
     }
   },
   "validations": [],
