@@ -36,12 +36,12 @@
     "Negativo": {
       "type": "string"
     },
-    "Dia": {
-      "type": "number",
-      "required": true
-    },
     "Portada": {
       "type": "boolean",
+      "required": true
+    },
+    "puntoruta": {
+      "type": "string",
       "required": true
     }
   },

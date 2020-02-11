@@ -10,6 +10,7 @@
       "type": "string",
       "id": true,
       "required": true
+      
     },
     "Nombre": {
       "type": "string",
@@ -17,7 +18,8 @@
     },
     "Mail": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "Rol": {
       "type": "string",
